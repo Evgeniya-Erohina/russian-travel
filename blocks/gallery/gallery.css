@@ -1,0 +1,32 @@
+.gallery {
+  width: calc(100% - 2*48px);
+  list-style: none;
+  display: grid;
+  gap: 16px;
+  padding: 0;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+}
+@media (max-width: 1024px) {
+  .gallery {
+    gap: 14px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(4, auto);
+}
+}@media (max-width: 768px) {
+  .gallery {
+    width: calc(100% - 2*24px);
+    gap: 16px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: repeat(6, auto);
+}
+}
+@media (min-width: 320px) and (max-width: 425px){
+  .gallery { 
+    gap: 12px;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    width: calc(100% - 2*16px);
+    box-sizing: border-box;
+}
+}

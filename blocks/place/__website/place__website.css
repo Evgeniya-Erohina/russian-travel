@@ -1,0 +1,16 @@
+.place__website {
+  grid-area: website;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  transition: opacity  0.3s ease-out;
+}
+.place__website:hover {
+  opacity: 0.8;
+}
+@media (min-width: 320px) and (max-width: 640px){
+.place__website {
+  width: calc(100% - 2*16px);
+  margin: 0 auto;
+}
+}

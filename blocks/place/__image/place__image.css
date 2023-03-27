@@ -1,0 +1,21 @@
+.place__image {
+  grid-area: image;
+  object-fit: cover;
+  width: calc(320px + (460 - 320) * ((100vw - 320px) / (1280 - 320)));
+}
+@media (max-width: 1024px) {
+  .place__image {
+    width: calc(320px + (440 - 320) * ((100vw - 320px) / (1024 - 320)));
+}
+}
+@media (max-width: 768px) {
+  .place__image {
+    width: calc(320px + (340 - 320) * ((100vw - 426px) / (768 - 426)));
+}
+}
+@media (max-width: 640px){
+.place__image {
+  object-fit: cover;
+  width: 100%;
+}
+}

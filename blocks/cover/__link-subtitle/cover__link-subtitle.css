@@ -1,0 +1,22 @@
+.cover__link-subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  white-space: pre-line;
+  margin: 0 0;
+}
+@media (max-width: 768px) {
+  .cover__link-subtitle {
+    font-size: calc(14px + (18 - 14) * ((100vw - 426px) / (768 - 426)));
+    line-height: calc(16px + (22 - 16) * ((100vw - 426px) / (768 - 426)));
+}
+}
+@media (min-width: 320px) and (max-width: 425px){
+  .cover__link-subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    white-space: normal;
+}
+}
