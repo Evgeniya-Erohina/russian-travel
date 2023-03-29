@@ -1,8 +1,9 @@
 .cover {
   width: calc(100% - 2*48px);
 }
+
 @media (max-width: 1024px) {
   .cover {
-    width:100%;
-}
+    width: 100%;
+  }
 }

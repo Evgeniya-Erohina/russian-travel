@@ -5,18 +5,21 @@
   flex-direction: column;
   row-gap: 80px;
 }
+
 @media (max-width: 768px) {
   .places__list {
     row-gap: 73px;
+  }
 }
-}
-@media (max-width: 640px){
+
+@media (max-width: 640px) {
   .places__list {
     row-gap: 60px;
+  }
 }
-}
-@media (max-width: 425px){
+
+@media (max-width: 425px) {
   .places__list {
     row-gap: 46px;
-}
+  }
 }

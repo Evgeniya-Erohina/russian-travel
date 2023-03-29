@@ -3,20 +3,22 @@
   flex-direction: row;
   display: flex;
   justify-content: space-between;
-  
+
 }
+
 @media (max-width: 768px) {
   .footer {
     width: calc(100% - 2*24px);
+  }
 }
-}
+
 @media (max-width: 750px) {
   .footer {
-  width: calc(100% - 2*16px);
-  box-sizing: border-box;
-  flex-direction: column;
-  display: flex;
-  justify-content:left;
-  row-gap: 48px;
-}
+    width: calc(100% - 2*16px);
+    box-sizing: border-box;
+    flex-direction: column;
+    display: flex;
+    justify-content: left;
+    row-gap: 48px;
+  }
 }

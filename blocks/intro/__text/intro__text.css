@@ -4,15 +4,17 @@
   line-height: 1.63;
   margin: 0 0 33px 0;
   text-align: left;
-  white-space: pre-line;
+  max-width: 690px;
 }
+
 @media (max-width: 1024px) {
-  .intro__text { 
-    margin: 0 0 32px 0;
-}
-}
-@media (min-width: 320px) and (max-width: 640px) {
   .intro__text {
-    white-space: normal;
+    margin: 0 0 32px 0;
+  }
 }
+
+@media (max-width: 768px) {
+  .intro__text {
+    width: 100%;
+  }
 }

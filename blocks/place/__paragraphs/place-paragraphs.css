@@ -1,4 +1,9 @@
 .place-paragraphs {
   grid-area: paragraphs;
-  padding: 0 16px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  .place-paragraphs {
+    padding: 0 16px;
+  }
 }

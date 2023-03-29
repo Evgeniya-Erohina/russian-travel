@@ -4,14 +4,16 @@
   line-height: 28px;
   text-decoration-line: none;
   color: inherit;
-  transition: opacity  0.3s ease-out;
+  transition: opacity 0.3s ease-out;
 }
+
 .header__lang-link:hover {
   opacity: 0.8;
 }
-@media (min-width: 320px) and (max-width: 425px){
+
+@media (min-width: 320px) and (max-width: 425px) {
   .header__lang-link {
     font-size: 18px;
     line-height: 20px;
-}
+  }
 }

@@ -5,25 +5,28 @@
   grid-template-rows: repeat(2, auto);
   grid-template-areas: "title website" "image paragraphs";
 }
+
 @media (max-width: 1024px) {
   .place {
     gap: 48px 32px;
+  }
 }
-}
+
 @media (max-width: 768px) {
   .place {
     gap: 48px 28px;
+  }
 }
-}
-@media (min-width: 320px) and (max-width: 640px){
+
+@media (min-width: 320px) and (max-width: 640px) {
   .place {
     display: grid;
     gap: 32px 0;
     grid-template-columns: 100%;
     grid-template-rows: auto;
-    grid-template-areas: "title" 
-                         "website"
-                         "image"
-                         "paragraphs";
-}
+    grid-template-areas: "title"
+      "website"
+      "image"
+      "paragraphs";
+  }
 }
